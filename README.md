@@ -32,11 +32,22 @@ Navigate back to the list using the navigation bar or swipe gestures.
 
 Screenshots
 
-<img width="1440" alt="Screenshot 2024-07-03 at 12 30 58 AM" src="https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/9820db84-453f-4a01-96fb-c5d2eb20fa40">
+MacOS
 
-![IMG_4276](https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/3f35a99e-1979-4b3a-958d-205b1eca878c)
+<img width="1440" alt="Screenshot 2024-07-03 at 12 52 29 PM" src="https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/adea89ae-61db-42d1-b999-94c3904d676e">
 
-![IMG_4277](https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/4aecc9bc-07c7-40a6-92cc-03af84ec4969)
+<img width="1440" alt="Screenshot 2024-07-03 at 12 52 30 PM" src="https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/aec74213-c2e9-4cbc-89ae-bb830324e7a9">
+
+<img width="1440" alt="Screenshot 2024-07-03 at 12 52 44 PM" src="https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/1a9a1a02-5f7b-4886-af53-cb673c875681">
+
+iOS
+
+![Simulator Screenshot - iPhone 15 - 2024-07-03 at 12 53 08](https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/3a3fb24b-fe07-4a8d-ae07-e530894f9ec8)
+
+![Simulator Screenshot - iPhone 15 - 2024-07-03 at 12 53 11](https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/401b031e-d60a-4f64-8de9-a101953f27ec)
+
+![Simulator Screenshot - iPhone 15 - 2024-07-03 at 12 53 18](https://github.com/Jami46/BrowseRecipes_xcodeAPP/assets/128006119/65721530-3610-4472-bdac-0fe7ada550d2)
+
 
 
 Credits

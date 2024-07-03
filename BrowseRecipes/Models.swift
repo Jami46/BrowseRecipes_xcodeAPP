@@ -31,6 +31,7 @@ struct MealDetail: Decodable {
     let ingredients: [String]
     let measures: [String]
     
+    
     enum CodingKeys: String, CodingKey {
         case id = "idMeal"
         case name = "strMeal"
@@ -77,5 +78,6 @@ extension MealDetail {
         
         self.ingredients = ingredients
         self.measures = measures
+        
     }
 }

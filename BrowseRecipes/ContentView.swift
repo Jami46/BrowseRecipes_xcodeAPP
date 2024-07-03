@@ -22,7 +22,7 @@ struct ContentView: View {
         NavigationView {
             content
                 .navigationTitle("Delicious Desserts")
-                .navigationViewStyle(navigationViewStyle) // Apply appropriate navigation view style
+                .navigationViewStyle(navigationViewStyle)
         }
         .frame(minWidth: 300, idealWidth: 400, maxWidth: .infinity, minHeight: 300, idealHeight: 600, maxHeight: .infinity) // Apply only to macOS
     }
@@ -47,23 +47,21 @@ struct ContentView: View {
     
     private var imageSize: CGFloat {
         #if os(iOS)
-        // Adjust image size based on device and size class
         if horizontalSizeClass == .compact {
-            return UIScreen.main.bounds.width * 0.15 // Adjust the multiplier as needed
+            return UIScreen.main.bounds.width * 0.15
         } else {
-            return 50 // Default size for other cases
+            return 50
         }
         #else
-        // For macOS, provide a default image size
         return 50
         #endif
     }
     
     private var navigationViewStyle: some NavigationViewStyle {
         #if os(iOS)
-        return StackNavigationViewStyle() // Apply only on iOS
+        return StackNavigationViewStyle()
         #else
-        return DefaultNavigationViewStyle() // Apply default style for macOS
+        return DefaultNavigationViewStyle()
         #endif
     }
 }
@@ -71,6 +69,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewInterfaceOrientation(.portrait) // Preview orientation for iOS
+            .previewInterfaceOrientation(.portrait) 
     }
 }

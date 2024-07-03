@@ -17,7 +17,6 @@ struct MealDetailView: View {
             VStack(alignment: .leading, spacing: 10) {
                 if let meal = viewModel.selectedMeal {
                     
-                    // Header with background image and meal name
                     ZStack(alignment: .bottomLeading) {
                         AsyncImage(url: URL(string: thumbnailURL)) { phase in
                             switch phase {
@@ -38,7 +37,7 @@ struct MealDetailView: View {
                         .frame(maxWidth: .infinity)
                         .frame(height: 300)
                         .clipped()
-                        .opacity(0.3) // Set the background image opacity
+                        .opacity(0.3)
                         
                         Text(meal.name.uppercased())
                             .font(.custom("Copperplate", size: 24))
@@ -49,7 +48,6 @@ struct MealDetailView: View {
                             .padding()
                     }
                     
-                    // Ingredients and Instructions
                     VStack(alignment: .leading, spacing: 10) {
                         Section(header: Text("Ingredients").font(.headline).fontWeight(.bold)) {
                             ForEach(Array(zip(meal.ingredients, meal.measures)), id: \.0) { ingredient, measure in

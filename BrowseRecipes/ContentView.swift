@@ -29,13 +29,16 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Dessert Recipes")
+            .navigationTitle("Delicious Desserts")
             .onAppear {
                 Task {
                     await viewModel.fetchMeals()
                 }
             }
         }
+        #if os(iOS)
+        .navigationViewStyle(StackNavigationViewStyle())
+        #endif
     }
 }
 

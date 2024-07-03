@@ -25,8 +25,12 @@ struct BrowseRecipesApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
-        .modelContainer(sharedModelContainer)
+                    SplashScreenView()
+                        .environment(\.colorScheme, .dark)
+                }
+                #if os(macOS)
+                .windowStyle(HiddenTitleBarWindowStyle())
+                #endif
+                .modelContainer(sharedModelContainer)
     }
 }

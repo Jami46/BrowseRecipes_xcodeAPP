@@ -1,3 +1,10 @@
+//
+//  Models.swift
+//  BrowseRecipes
+//
+//  Created by Karthik Jami on 7/2/24.
+//
+
 import Foundation
 
 struct Meal: Identifiable, Decodable {
@@ -9,6 +16,7 @@ struct Meal: Identifiable, Decodable {
         case id = "idMeal"
         case name = "strMeal"
         case thumbnail = "strMealThumb"
+        
     }
 }
 
@@ -27,6 +35,17 @@ struct MealDetail: Decodable {
         case id = "idMeal"
         case name = "strMeal"
         case instructions = "strInstructions"
+        case strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5
+        case strIngredient6, strIngredient7, strIngredient8, strIngredient9, strIngredient10
+        case strIngredient11, strIngredient12, strIngredient13, strIngredient14, strIngredient15
+        case strIngredient16, strIngredient17, strIngredient18, strIngredient19, strIngredient20
+                
+        case strMeasure1, strMeasure2, strMeasure3, strMeasure4, strMeasure5
+        case strMeasure6, strMeasure7, strMeasure8, strMeasure9, strMeasure10
+        case strMeasure11, strMeasure12, strMeasure13, strMeasure14, strMeasure15
+        case strMeasure16, strMeasure17, strMeasure18, strMeasure19, strMeasure20
+        
+        
         
     }
 }

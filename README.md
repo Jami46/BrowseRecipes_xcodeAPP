@@ -1,7 +1,6 @@
 Delicious Desserts
 Delicious Desserts is a native iOS app that allows users to browse and discover a variety of dessert recipes. Users can view a list of desserts, select a specific dessert to see detailed information including ingredients and instructions. This app fetches data from the MealDB API and demonstrates the use of SwiftUI and async/await for asynchronous operations.
 
-Fetch - iOS Coding Challenge 
 
 Features
 Browse a list of dessert recipes fetched from the MealDB API.
